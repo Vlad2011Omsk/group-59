@@ -1,0 +1,69 @@
+.site-header {
+  background-color: #ffffff; /* Светлый фон, как на макете */
+  padding: 10px 0; /* Отступы сверху/снизу */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Элементы по краям */
+  align-items: center; /* Выравнивание по центру по вертикали */
+  padding: 0 20px;
+}
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.main-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.main-menu li {
+  margin-right: 20px; /* Отступы между пунктами меню */
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 20px;
+  transition: color 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.main-menu a:hover {
+  color: #007bff; /* Цвет при наведении */
+}
+
+.header-actions {
+  display: flex;
+  gap: 15px; /* Расстояние между иконками */
+}
+
+.search-btn, .cart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.search-btn svg, .cart-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #666666; /* Цвет иконок */
+}
+
+.search-btn:hover svg, .cart-btn:hover svg {
+  fill: #007bff; /* Цвет иконок при наведении */
+}
